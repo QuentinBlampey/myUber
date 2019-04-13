@@ -1,0 +1,17 @@
+init my_uber.txt
+addCustomer Clement DiDomenico
+addCustomer Quentin Blampey
+moveCustomer customer10 -2 3
+moveCustomer customer11 20 30
+moveCar standard0 10 3
+moveCar berline0 0 3
+addCarDriver Herve Biausser Standard
+simRide customer0 2 2 -1 UberX 5
+simRide customer1 1 2 -1 UberX 4
+simRide customer2 2 8 -1 UberX 5
+simRide customer3 -2 0 -1 UberX 2
+simRide customer4 20 2 -1 UberVan 5
+simRide customer5 10 2 -1 UberVan 4
+simRide customer0 4 0 -1 UberBlack 1
+simRide customer2 1 6 -1 UberBlack 3
+simRide customer4 -2 8 -1 UberBlack 3
